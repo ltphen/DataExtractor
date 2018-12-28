@@ -1,0 +1,30 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', ubuntu;
+}
+h1{
+    color: rgb(200, 29, 29) !important;
+    font-size: 2em !important;
+    text-align: center !important;
+    margin-top: 5% !important; 
+}
+.part_connexion{
+    border: solid #777575 1px;
+    height:473px !important;
+}
+.name_of_connextio{
+    border-bottom: solid rgb(143, 141, 141) 1px;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    width: 100%;
+    margin-top: 7%;
+}
+.part_button{
+    border-top: solid #777575 1px;
+    margin-top: 20%;
+    padding: 0% !important;
+    width: 100% !important;
+}

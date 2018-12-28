@@ -1,0 +1,14 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', ubuntu;
+}
+h1{
+    color: black;
+    font-size: 2em;
+}
+h5{
+    color: black;
+    font-size: 0.5em;
+}

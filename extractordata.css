@@ -1,0 +1,67 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', ubuntu;
+}
+.entete h1{
+    color: rgb(200, 29, 29);
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 15%;
+}
+.entete h5{
+    color: #383636;
+    font-size: 1em;
+    text-align: center;
+    text-align: justify;
+    line-height:2em;
+}
+.part-extractor{
+    border: solid black 1px;
+    margin-top: 15%;
+
+}
+.part-extractor h3{
+    text-align: center;
+    color: #383636; 
+}
+.talk_about h2{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(200, 29, 29);
+    margin-top: 7%;
+}
+.talk_about h3{
+    text-align: center;
+    color: #383636;
+    font-size: 1em;
+    line-height: 2em;
+    margin-top: 3%;
+} 
+.part_team h2{
+    color: rgb(200, 29, 29);
+    font-size: 2em;
+    text-align: center;
+    margin-top: 7%;
+
+}
+.team_images{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    
+}
+.team_presentation h6{
+    color: black;
+    font-size: 1em;
+    margin-top: 1%;
+    line-height: 2em;
+}
+.team_presentation h5{
+    color: #383636;
+    font-size: 1em;
+}
+.team_presentation{
+    margin-top:5%;
+}
