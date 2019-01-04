@@ -2,7 +2,7 @@ const localUrl = {
     root: "https://dataextractor-4dot0.herokuapp.com",
     urls: {
         extract: "/extract",
-        history: "/history",
+        history: "/histories",
         oneHistory: "/oneHistory?id="
     }
 }
