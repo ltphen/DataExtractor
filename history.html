@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--link css style-->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/history.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Staatliches" rel="stylesheet">
+
+  <title>DATA EXTRACTOR</title>
+</head>
+
+<body>
+
+  <div class="row entete">
+    <h1 class="col-md-12"><a href="/">Data extractor </a></h1>
+    <h5 class="col-md-10">Proin turpis justo, molestie suscipit tincidunt sit amet, viverra et leo. Maecenas mollis at
+      nunc ac auctor. Aliquam tincidunt ipsum varius, volutpat urna sit amet, sodales In eu vestibulum tortor, luctus
+      vulputate orci.
+      Proin turpis justo, molestie suscipit tincidunt sit amet, auctor. Aliquam tincidunt ipsum varius, volutpat urna
+      sit amet, sodales In eu vestibulum tortor, luctus vulputate orci.
+    </h5>
+  </div>
+  <div class="row ">
+    <a href="upload.html" class="col-sm-6 part-extractor">
+      <h3>extraction</h3>
+    </a>
+    <a href="history.html" class="col-sm-6 part-extractor active">
+      <h3>historique</h3>
+    </a>
+  </div>
+
+  <div class="row main">
+
+    <div class="col-md-2 p-0">
+      <div class="menu-panel d-sm-none d-none d-md-block" id="menu-panel-one">
+        <div class="menu-panel-item title bg-gradient text-white">History</div>
+        <div class="menu-panel-item active">toast.java</div>
+        <div class="menu-panel-item">lol.java</div>
+        <div class="menu-panel-item">test.java</div>
+      </div>
+      <div class="menu-panel d-sm-block d-md-none" id="menu-panel-two">
+        <div class="menu-panel-item title bg-gradient text-white" data-toggle="collapse" href="#collapseExample" role="button"
+          aria-expanded="false" aria-controls="collapseExample">History</div>
+
+        <div class="collapse" id="collapseExample">
+          <div  data-toggle="collapse" href="#collapseExample" role="button"
+          aria-expanded="false" aria-controls="collapseExample" class="menu-panel-item active">toast.java</div>
+          <div  data-toggle="collapse" href="#collapseExample" role="button"
+          aria-expanded="false" aria-controls="collapseExample" class="menu-panel-item">lol.java</div>
+          <div  data-toggle="collapse" href="#collapseExample" role="button"
+          aria-expanded="false" aria-controls="collapseExample" class="menu-panel-item">test.java</div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <div class="px-5 col-md-10">
+    <div class="mx-auto col-4 offset-1 hidden" id="loader">
+      <img src="svg-loaders/grid.svg" alt="">
+    </div>
+    <table class="table table-bordered" id="table-data">
+      <thead>
+        <tr>
+          <th scope="col">Class</th>
+          <th scope="col">Variables</th>
+          <th scope="col">Packages</th>
+          <th scope="col">Interfaces</th>
+          <th scope="col">Extends</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="5" class="centered">File extraction result</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, tden Popper.js, then Bootstrap JS -->
+  <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/Views.js"></script>
+  <script src="js/Loader.js"></script>
+  <script src="js/Main.js"></script>
+  <script>
+    Main.bootstrap();
+  </script>
+</body>
+
+</html>

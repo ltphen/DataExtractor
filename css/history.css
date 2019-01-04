@@ -1,0 +1,38 @@
+html{
+    font-family : Roboto;
+}
+
+.header{
+    padding: 5% 0%;
+    color: #707070;
+    text-align: center;
+}
+
+.menu-panel-item{
+    padding: 7% 1% 7% 10%;
+    border-top: 1px solid #bdbbbb;
+}
+
+.main{
+    padding: 2% 0%;
+}
+
+.menu-panel-item.active , .menu-panel-item:not(.title):hover{
+    background: #cfcfcf;
+    cursor: pointer;
+}
+
+.menu-panel>div:not(.title){
+    font-family: "Open sans";
+    font-size: 0.85em;
+}
+
+.menu-panel-item:nth-last-child(1){
+    border-bottom: 1px solid #bdbbbb;
+
+}
+
+.menu-panel{
+    border-right: 1px solid #bdbbbb;
+}
+

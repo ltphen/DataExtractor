@@ -1,0 +1,48 @@
+
+.entete{
+    /* background: #383636; */
+    background: #9D50BB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    padding: 8% 8% 4% 8%;
+    height: 89.5%;
+}
+
+.entete h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    /* text-align: center; */
+    margin: 5% 0% 0%;
+}
+.entete h5{
+    /* color: #383636; */
+    font-size: 1em;
+    font-family: "Open sans", "sans-serif";
+    text-align: center;
+    text-align: justify;
+    line-height:2em;
+    font-weight: 100;
+}
+.part-extractor{
+    border: solid #dee2e6 1px;
+    /* margin-top: %; */
+    padding: 1%;
+}
+
+
+.part-extractor:hover h3{
+    color: #6E48AA;
+}
+
+
+.part-extractor.active h3{
+    color: #6E48AA;
+}
+.part-extractor h3{
+    text-align: center;
+    color: #383636;
+    font-weight: bold !important;
+    text-transform: capitalize;
+}

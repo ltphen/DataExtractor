@@ -1,43 +1,42 @@
-html, body{
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    font-family: 'Poppins', ubuntu;
-}
-.entete h1{
-    color: rgb(200, 29, 29);
-    font-size: 2.5em;
-    text-align: center;
-    margin-top: 15%;
-}
-.entete h5{
-    color: #383636;
-    font-size: 1em;
-    text-align: center;
-    text-align: justify;
-    line-height:2em;
-}
-.part-extractor{
-    border: solid black 1px;
-    margin-top: 15%;
 
+
+.talk_about {
+    padding: 5% 10% 10%;
 }
-.part-extractor h3{
-    text-align: center;
-    color: #383636; 
+
+.part_team {
+    padding: 2% 10% 10%;
 }
+
+
+
+
+
+.divider{
+    background:  #dee2e6;
+    height: 1px;
+    border-radius: 10px;
+}
+
+
 .talk_about h2{
     text-align: center;
     font-size: 2em;
     color: rgb(200, 29, 29);
     margin-top: 7%;
 }
+footer{
+    text-align: center;
+    border: solid #dee2e6 1px;
+    padding: 1%;
+}
 .talk_about h3{
+    font-family: "Open sans";
     text-align: center;
     color: #383636;
     font-size: 1em;
     line-height: 2em;
-    margin-top: 3%;
+    margin: 3%;
 } 
 .part_team h2{
     color: rgb(200, 29, 29);
@@ -60,8 +59,17 @@ html, body{
 }
 .team_presentation h5{
     color: #383636;
+    font-family: "Open sans";
     font-size: 1em;
 }
 .team_presentation{
+    text-align: center;
     margin-top:5%;
+}
+
+.team_presentation>div{
+    margin-top: 4%;
+}
+.team_presentation img{
+    border: 5px solid #d3d3d3;
 }

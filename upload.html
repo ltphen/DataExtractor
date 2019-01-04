@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--link css style-->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/upload.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Staatliches" rel="stylesheet">
+
+  <title>DATA EXTRACTOR</title>
+</head>
+
+<body>
+  <div class="row entete">
+    <h1 class="col-md-12"><a href="/">Data extractor </a></h1>
+    <h5 class="col-md-10">Proin turpis justo, molestie suscipit tincidunt sit amet, viverra et leo. Maecenas mollis at
+      nunc ac auctor. Aliquam tincidunt ipsum varius, volutpat urna sit amet, sodales In eu vestibulum tortor, luctus
+      vulputate orci.
+      Proin turpis justo, molestie suscipit tincidunt sit amet, auctor. Aliquam tincidunt ipsum varius, volutpat urna
+      sit amet, sodales In eu vestibulum tortor, luctus vulputate orci.
+    </h5>
+  </div>
+  <div class="row ">
+    <a href="upload.html" class="col-sm-6 part-extractor active">
+      <h3>extraction</h3>
+    </a>
+    <a href="history.html" class="col-sm-6 part-extractor">
+      <h3>historique</h3>
+    </a>
+  </div>
+
+  <div class="row container-fluid main">
+    <form action="/file">
+      <input type="file" name="" id="fileInput" class="hidden" onchange="Main.uploadEvent(this);">
+
+    </form>
+    <div class="col-12 upload-panel entete">
+      <img src="images/upload.svg" class="col-2 offset-5" alt="">
+      <h3 class="uplaod-text">Choose the file to upload</h3>
+      <div class="mx-auto col-12 centered hidden" id="loader">
+        <img src="svg-loaders/grid.svg" alt="">
+      </div>
+    </div>
+
+    <div class="col-12 alert m-0 text-white bg-gradient">
+      Result
+    </div>
+    <div class="p-0 col-12">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Class</th>
+            <th scope="col">Variables</th>
+            <th scope="col">Packages</th>
+            <th scope="col">Interfaces</th>
+            <th scope="col">Extends</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="5" class="centered">File extraction result</td>
+          </tr>
+          
+            <!-- <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+            <td>@twitter</td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, tden Popper.js, then Bootstrap JS -->
+  <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="js/Views.js"></script>
+  <script src="js/Loader.js"></script>
+  <script src="js/Main.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <script>
+    document.querySelector(".upload-panel").addEventListener("click", () => {
+      document.querySelector("#fileInput").click();
+    })
+  </script>
+</body>
+
+</html>

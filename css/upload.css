@@ -1,0 +1,29 @@
+
+
+.upload-panel .uplaod-text{
+    padding: 5% 0%;
+    color: #707070;
+    text-align: center;
+}
+
+.main{
+    padding-top: 2%; 
+}
+
+
+.upload-panel{
+    border: 1px dashed #707070;
+    background: #ececec;
+    padding: 3% 0%;
+}
+
+
+.upload-panel:hover{
+    background: #cecdcd;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.container-fluid{
+    margin-left: 1px !important;
+}
+

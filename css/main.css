@@ -1,0 +1,33 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Staatliches !important;
+}
+
+a{
+    color: white !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.bg-gradient{
+    background: #9D50BB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+tr td{
+    font-family: "Open sans";
+}
+
+.centered{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
