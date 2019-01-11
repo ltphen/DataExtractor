@@ -1,5 +1,5 @@
 const localUrl = {
-    root: "https://dataextractor-4dot0.herokuapp.com",
+    root: "https://dataex.herokuapp.com",
     urls: {
         extract: "/extract",
         history: "/histories",
